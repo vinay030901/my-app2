@@ -1,4 +1,4 @@
-function UserData(props) {
+export default function UserData(props) {
     return (
         <div>
             <h2>User Data</h2>
@@ -28,4 +28,3 @@ function UserData(props) {
     );
 
 }
-export default UserData

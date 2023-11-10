@@ -1,12 +1,10 @@
 import './App.css';
-import AxiosApp from './axiosapp/AxiosApp';
-import InsuranceApp from './axiosapp/InsuranceApp';
+import ContextApp from './hooskapp/ContextApp';
 
 function App() {
   return (
-    <div className="App">
-      <AxiosApp />
-      {/* <InsuranceApp /> */}
+    <div>
+      <ContextApp />
     </div>
   );
 }
